@@ -1,17 +1,23 @@
 {
   "name": "polease",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "electron": "electron .",
+    "fastify": "nodemon server/server.js",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "yarn global add nodemon"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "core-js": "^3.8.3",
     "electron": "^22.3.27",
+    "fastify": "^4.28.0",
+    "nedb": "^1.8.0",
+    "pino-pretty": "^11.2.2",
     "vue": "^2.6.14",
     "vuetify": "^2.6.0"
   },

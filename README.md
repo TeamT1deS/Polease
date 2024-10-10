@@ -10,9 +10,14 @@ yarn install
 # 安装依赖
 ```
 
-### Compiles and hot-reloads for development
+### Vue.js - Compiles and hot-reloads for development
 ```
 yarn serve
+```
+
+### Fastify - A Fast Web Server run in Node.js
+```
+yarn fastify
 ```
 
 ### Run Electron for development
@@ -20,15 +25,10 @@ yarn serve
 yarn electron
 ```
 
-### Compiles and minifies for production
+## CHANGELOG
 ```
-yarn build
+2024/10/08 - Initial Commit
+2024/10/10 - Backend: Fastify,
+             Database: NeDB,
+             = Database Cold / Hot Test
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
